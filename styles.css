@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+   background: black;
+   font-family: "Libre Baskerville";
+   font-size: 90%;
+}
+
+.postcard {
+   background: white;
+   width: 400px;
+   height: 300px;
+   margin: auto;
+}
+
+.postcard-header {
+   display: flex;
+}
+
+
+.postcard-header img {
+   width: 50px;
+   height: 50px;
+   margin: 5px;
+}
+
+
+.postcard-header h1 {
+   width: 1000px;
+   margin: 30px;
+}
+
+
+.postcard-body {
+   display: flex;
+}
+
+
+.body-left first-child {
+   margin-top: 0px;
+}
+
+
+.body-left,
+.body-right {
+   padding: 10px;
+   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+.body-right {
+   border: none;
+   margin-left: 5px;
+}
+
+
